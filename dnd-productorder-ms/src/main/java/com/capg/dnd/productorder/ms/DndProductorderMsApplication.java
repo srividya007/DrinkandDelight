@@ -15,9 +15,6 @@ public class DndProductorderMsApplication {
 		SpringApplication.run(DndProductorderMsApplication.class, args);
 	   System.out.println("hello world");
 	}
-@Bean
-public RestTemplate getRestTemplate() {
-	return new RestTemplate();
-}
+
 }
 
