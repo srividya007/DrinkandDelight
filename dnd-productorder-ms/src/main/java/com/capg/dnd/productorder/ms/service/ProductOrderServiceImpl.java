@@ -35,9 +35,6 @@ public class ProductOrderServiceImpl implements IProductOrderService {
 	
 	@Autowired
 	IProductOrderRepo repo;
-	@Autowired
-	RestTemplate rt;
-	
 	
 	
 	
