@@ -31,7 +31,7 @@ class ProductOrderServiceImplTest {
  public void testAddProductOrder() throws ProductOrderIdAlreadyExistsException {
 	 ProductOrder order=new  ProductOrder();
 	 order.setOrderId("1");
-	 order.setName("mummy");
+	 order.setName("LAPTOP");
 	 Mockito.when(repo.save(order)).thenReturn(order);
 	 assertEquals(order,service.addProductOrder(order));
  }
