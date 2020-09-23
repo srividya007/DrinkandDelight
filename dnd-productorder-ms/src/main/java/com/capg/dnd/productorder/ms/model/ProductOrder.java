@@ -135,47 +135,4 @@ public String toString() {
 			+ ", dateofDelivery=" + dateofDelivery + ", pricePerunit=" + pricePerunit + ", totalPrice=" + totalPrice
 			+ ", deliveryStatus=" + deliveryStatus + ", warehouseId=" + warehouseId + "]";
 }
-	/*
-	 * @Override public int hashCode() { final int prime = 31; int result = 1;
-	 * result = prime * result + ((dateofDelivery == null) ? 0 :
-	 * dateofDelivery.hashCode()); result = prime * result + ((dateofOrder == null)
-	 * ? 0 : dateofOrder.hashCode()); result = prime * result + ((deliveryStatus ==
-	 * null) ? 0 : deliveryStatus.hashCode()); result = prime * result + ((name ==
-	 * null) ? 0 : name.hashCode()); result = prime * result + ((orderId == null) ?
-	 * 0 : orderId.hashCode()); long temp; temp =
-	 * Double.doubleToLongBits(pricePerunit); result = prime * result + (int) (temp
-	 * ^ (temp >>> 32)); result = prime * result + ((quantityUnit == null) ? 0 :
-	 * quantityUnit.hashCode()); temp = Double.doubleToLongBits(quantityValue);
-	 * result = prime * result + (int) (temp ^ (temp >>> 32)); result = prime *
-	 * result + ((distributorId == null) ? 0 : distributorId.hashCode()); temp =
-	 * Double.doubleToLongBits(totalPrice); result = prime * result + (int) (temp ^
-	 * (temp >>> 32)); result = prime * result + ((warehouseId == null) ? 0 :
-	 * warehouseId.hashCode()); return result; }
-	 */
-	/*
-	 * @Override public boolean equals(Object obj) { if (this == obj) return true;
-	 * if (obj == null) return false; if (getClass() != obj.getClass()) return
-	 * false; ProductOrder other = (ProductOrder) obj; if (dateofDelivery == null) {
-	 * if (other.dateofDelivery != null) return false; } else if
-	 * (!dateofDelivery.equals(other.dateofDelivery)) return false; if (dateofOrder
-	 * == null) { if (other.dateofOrder != null) return false; } else if
-	 * (!dateofOrder.equals(other.dateofOrder)) return false; if (deliveryStatus ==
-	 * null) { if (other.deliveryStatus != null) return false; } else if
-	 * (!deliveryStatus.equals(other.deliveryStatus)) return false; if (name ==
-	 * null) { if (other.name != null) return false; } else if
-	 * (!name.equals(other.name)) return false; if (orderId == null) { if
-	 * (other.orderId != null) return false; } else if
-	 * (!orderId.equals(other.orderId)) return false; if
-	 * (Double.doubleToLongBits(pricePerunit) !=
-	 * Double.doubleToLongBits(other.pricePerunit)) return false; if (quantityUnit
-	 * == null) { if (other.quantityUnit != null) return false; } else if
-	 * (!quantityUnit.equals(other.quantityUnit)) return false; if
-	 * (Double.doubleToLongBits(quantityValue) !=
-	 * Double.doubleToLongBits(other.quantityValue)) return false; if (distributorId
-	 * == null) { if (other.distributorId != null) return false; } else if
-	 * (!distributorId.equals(other.distributorId)) return false; if
-	 * (Double.doubleToLongBits(totalPrice) !=
-	 * Double.doubleToLongBits(other.totalPrice)) return false; if (warehouseId ==
-	 * null) { if (other.warehouseId != null) return false; } else if
-	 * (!warehouseId.equals(other.warehouseId)) return false; return true; }
-	 */}
+}
