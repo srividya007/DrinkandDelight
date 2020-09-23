@@ -8,6 +8,7 @@ import javax.persistence.Id;
 import org.springframework.format.annotation.DateTimeFormat;
 
 @Entity
+@Table(name="PRODUCT_ORDER")
 public class ProductOrder {
 	@Id
 	private String orderId;
